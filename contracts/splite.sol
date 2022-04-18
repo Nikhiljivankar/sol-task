@@ -40,7 +40,7 @@ contract Splite {
         }
         else if(userIds[1].addr == addr2){
             // u2.value = u2.value + ((_num * 70)/100);
-            userIds[1].transfer((_num * 30)/100);
+            userIds[1].transfer((_num * 70)/100);
 
         }
     }
